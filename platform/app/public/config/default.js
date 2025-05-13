@@ -95,7 +95,7 @@ window.config = {
   //   // Example 1, to allow numbers and letters in an absolute or sub-path only.
   //   // regex: /(0-9A-Za-z.]+)(\/[0-9A-Za-z.]+)*/
   //   // Example 2, to restricts to either hosptial.com or othersite.com.
-  //   // regex: /(https:\/\/hospital.com(\/[0-9A-Za-z.]+)*)|(https:\/\/othersite.com(\/[0-9A-Za-z.]+)*)/
+  //   // regex: /(https:\/\/hospital.com(\/[0-9A-Za-z.]+))|(https:\/\/othersite.com(\/[0-9A-Za-z.]+))/
   //   regex: /.*/,
   // },
   dataSources: [
@@ -105,9 +105,9 @@ window.config = {
       configuration: {
         friendlyName: 'AWS S3 Static wado server',
         name: 'aws',
-        wadoUriRoot: 'https://d14fa38qiwhyfd.cloudfront.net/dicomweb',
-        qidoRoot: 'https://d14fa38qiwhyfd.cloudfront.net/dicomweb',
-        wadoRoot: 'https://d14fa38qiwhyfd.cloudfront.net/dicomweb',
+        wadoUriRoot: 'http://localhost:5985',
+        qidoRoot: 'http://localhost:5985',
+        wadoRoot: 'http://localhost:5985',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
@@ -283,7 +283,7 @@ window.config = {
   //         target: '_self',
   //         rel: 'noopener noreferrer',
   //         className: 'text-purple-600 line-through',
-  //         href: '_X___IDC__LOGO__LINK___Y_',
+  //         href: 'X_IDCLOGOLINK_Y',
   //       },
   //       React.createElement('img', {
   //         src: './Logo.svg',
