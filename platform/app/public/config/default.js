@@ -105,9 +105,9 @@ window.config = {
       configuration: {
         friendlyName: 'AWS S3 Static wado server',
         name: 'aws',
-        wadoUriRoot: 'http://localhost:5985',
-        qidoRoot: 'http://localhost:5985',
-        wadoRoot: 'http://localhost:5985',
+        wadoUriRoot: 'http://13.48.42.248:5985',
+        qidoRoot: 'http://13.48.42.248:5985',
+        wadoRoot: 'http://13.48.42.248:5985',
         qidoSupportsIncludeField: false,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
